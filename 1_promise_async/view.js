@@ -16,4 +16,8 @@ class DataViewController{
             this.#div.appendChild(div);
         }
     }
+
+    renderError(errorMessage){
+        this.#div.textContent = errorMessage;
+    }
 }
